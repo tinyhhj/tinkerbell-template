@@ -28,7 +28,7 @@ export default function createIssue(title: string, body: string) {
       }
     },
     {
-      secrets: ["GITHUB_TOKEN"],
+      secrets: ["TOKEN"],
     },
   );
 }
